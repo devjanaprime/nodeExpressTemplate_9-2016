@@ -40,8 +40,7 @@ app.get( '/getRoute', function( req, res ){
 app.post( '/postRoute', urlencodedParser, function( req, res ){
   console.log( 'postRoute hit:', req.body );
   var responseObject ={
-    response: 'response text from post',
-    reqBody: req.body
+    response: 'response text from post'
   };
   res.send( responseObject );
 }); // end post route template
@@ -50,8 +49,7 @@ app.post( '/postRoute', urlencodedParser, function( req, res ){
 app.put( '/putRoute', urlencodedParser, function( req, res ){
   console.log( 'putRoute hit:', req.body );
   var responseObject ={
-    response: 'response text from post',
-    reqBody: req.body
+    response: 'response text from post'
   };
   res.send( responseObject );
 }); // end post route template
