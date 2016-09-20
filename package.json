@@ -1,0 +1,21 @@
+{
+  "name": "node_express_template",
+  "version": "1.0.0",
+  "description": "basic node express template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "template"
+  ],
+  "author": "@devjana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
